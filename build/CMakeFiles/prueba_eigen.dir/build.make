@@ -72,28 +72,28 @@ include CMakeFiles/prueba_eigen.dir/flags.make
 CMakeFiles/prueba_eigen.dir/codegen:
 .PHONY : CMakeFiles/prueba_eigen.dir/codegen
 
-CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o: CMakeFiles/prueba_eigen.dir/flags.make
-CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o: /home/fede/github/gccdemo/prueba_eigen.cpp
-CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o: CMakeFiles/prueba_eigen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o -MF CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o.d -o CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o -c /home/fede/github/gccdemo/prueba_eigen.cpp
+CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o: CMakeFiles/prueba_eigen.dir/flags.make
+CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o: /home/fede/github/gccdemo/src/prueba_eigen.cpp
+CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o: CMakeFiles/prueba_eigen.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o -MF CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o.d -o CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o -c /home/fede/github/gccdemo/src/prueba_eigen.cpp
 
-CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fede/github/gccdemo/prueba_eigen.cpp > CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.i
+CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fede/github/gccdemo/src/prueba_eigen.cpp > CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.i
 
-CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fede/github/gccdemo/prueba_eigen.cpp -o CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.s
+CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fede/github/gccdemo/src/prueba_eigen.cpp -o CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.s
 
 # Object files for target prueba_eigen
 prueba_eigen_OBJECTS = \
-"CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o"
+"CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o"
 
 # External object files for target prueba_eigen
 prueba_eigen_EXTERNAL_OBJECTS =
 
-prueba_eigen: CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o
+prueba_eigen: CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o
 prueba_eigen: CMakeFiles/prueba_eigen.dir/build.make
 prueba_eigen: CMakeFiles/prueba_eigen.dir/compiler_depend.ts
 prueba_eigen: CMakeFiles/prueba_eigen.dir/link.txt

@@ -129,29 +129,66 @@ prueba_eigen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/build
 .PHONY : prueba_eigen/fast
 
-prueba_eigen.o: prueba_eigen.cpp.o
-.PHONY : prueba_eigen.o
+#=============================================================================
+# Target rules for targets named hola_mundo
+
+# Build rule for target.
+hola_mundo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hola_mundo
+.PHONY : hola_mundo
+
+# fast build rule for target.
+hola_mundo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/build
+.PHONY : hola_mundo/fast
+
+src/hola_mundo.o: src/hola_mundo.cpp.o
+.PHONY : src/hola_mundo.o
 
 # target to build an object file
-prueba_eigen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o
-.PHONY : prueba_eigen.cpp.o
+src/hola_mundo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/src/hola_mundo.cpp.o
+.PHONY : src/hola_mundo.cpp.o
 
-prueba_eigen.i: prueba_eigen.cpp.i
-.PHONY : prueba_eigen.i
+src/hola_mundo.i: src/hola_mundo.cpp.i
+.PHONY : src/hola_mundo.i
 
 # target to preprocess a source file
-prueba_eigen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.i
-.PHONY : prueba_eigen.cpp.i
+src/hola_mundo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/src/hola_mundo.cpp.i
+.PHONY : src/hola_mundo.cpp.i
 
-prueba_eigen.s: prueba_eigen.cpp.s
-.PHONY : prueba_eigen.s
+src/hola_mundo.s: src/hola_mundo.cpp.s
+.PHONY : src/hola_mundo.s
 
 # target to generate assembly for a file
-prueba_eigen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.s
-.PHONY : prueba_eigen.cpp.s
+src/hola_mundo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/src/hola_mundo.cpp.s
+.PHONY : src/hola_mundo.cpp.s
+
+src/prueba_eigen.o: src/prueba_eigen.cpp.o
+.PHONY : src/prueba_eigen.o
+
+# target to build an object file
+src/prueba_eigen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o
+.PHONY : src/prueba_eigen.cpp.o
+
+src/prueba_eigen.i: src/prueba_eigen.cpp.i
+.PHONY : src/prueba_eigen.i
+
+# target to preprocess a source file
+src/prueba_eigen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.i
+.PHONY : src/prueba_eigen.cpp.i
+
+src/prueba_eigen.s: src/prueba_eigen.cpp.s
+.PHONY : src/prueba_eigen.s
+
+# target to generate assembly for a file
+src/prueba_eigen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.s
+.PHONY : src/prueba_eigen.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... hola_mundo"
 	@echo "... prueba_eigen"
-	@echo "... prueba_eigen.o"
-	@echo "... prueba_eigen.i"
-	@echo "... prueba_eigen.s"
+	@echo "... src/hola_mundo.o"
+	@echo "... src/hola_mundo.i"
+	@echo "... src/hola_mundo.s"
+	@echo "... src/prueba_eigen.o"
+	@echo "... src/prueba_eigen.i"
+	@echo "... src/prueba_eigen.s"
 .PHONY : help
 
 

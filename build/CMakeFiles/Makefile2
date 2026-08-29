@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /home/fede/github/gccdemo/build
 
 # The main recursive "all" target.
 all: CMakeFiles/prueba_eigen.dir/all
+all: CMakeFiles/hola_mundo.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/prueba_eigen.dir/codegen
+codegen: CMakeFiles/hola_mundo.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/prueba_eigen.dir/clean
+clean: CMakeFiles/hola_mundo.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +88,7 @@ clean: CMakeFiles/prueba_eigen.dir/clean
 CMakeFiles/prueba_eigen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=1,2 "Built target prueba_eigen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=3,4 "Built target prueba_eigen"
 .PHONY : CMakeFiles/prueba_eigen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -102,13 +105,45 @@ prueba_eigen: CMakeFiles/prueba_eigen.dir/rule
 # codegen rule for target.
 CMakeFiles/prueba_eigen.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=1,2 "Finished codegen for target prueba_eigen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=3,4 "Finished codegen for target prueba_eigen"
 .PHONY : CMakeFiles/prueba_eigen.dir/codegen
 
 # clean rule for target.
 CMakeFiles/prueba_eigen.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prueba_eigen.dir/build.make CMakeFiles/prueba_eigen.dir/clean
 .PHONY : CMakeFiles/prueba_eigen.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hola_mundo.dir
+
+# All Build rule for target.
+CMakeFiles/hola_mundo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=1,2 "Built target hola_mundo"
+.PHONY : CMakeFiles/hola_mundo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hola_mundo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fede/github/gccdemo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hola_mundo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fede/github/gccdemo/build/CMakeFiles 0
+.PHONY : CMakeFiles/hola_mundo.dir/rule
+
+# Convenience name for target.
+hola_mundo: CMakeFiles/hola_mundo.dir/rule
+.PHONY : hola_mundo
+
+# codegen rule for target.
+CMakeFiles/hola_mundo.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fede/github/gccdemo/build/CMakeFiles --progress-num=1,2 "Finished codegen for target hola_mundo"
+.PHONY : CMakeFiles/hola_mundo.dir/codegen
+
+# clean rule for target.
+CMakeFiles/hola_mundo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hola_mundo.dir/build.make CMakeFiles/hola_mundo.dir/clean
+.PHONY : CMakeFiles/hola_mundo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

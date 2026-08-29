@@ -2,7 +2,7 @@ prueba_eigen: \
   /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o \
-  CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o \
+  CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/14/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/libm.so \
@@ -37,7 +37,7 @@ prueba_eigen: \
 
 /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o:
 
-CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o:
+CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/14/libstdc++.so:
 

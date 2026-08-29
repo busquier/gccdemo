@@ -12,9 +12,13 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package(Eigen3 REQUIRED)
 
 add_executable(prueba_eigen
-    prueba_eigen.cpp
+    src/prueba_eigen.cpp
 )
 
 target_link_libraries(prueba_eigen
     PRIVATE Eigen3::Eigen
+)
+
+add_executable(hola_mundo
+    src/hola_mundo.cpp
 )

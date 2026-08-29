@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/prueba_eigen.dir/link.d"
-  "CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o"
-  "CMakeFiles/prueba_eigen.dir/prueba_eigen.cpp.o.d"
+  "CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o"
+  "CMakeFiles/prueba_eigen.dir/src/prueba_eigen.cpp.o.d"
   "prueba_eigen"
   "prueba_eigen.pdb"
 )
